@@ -1,13 +1,12 @@
 # CONNECT-TO
 Graph-Based Social Network Analysis
-The execution guideline you provided outlines steps to organize files and compile a program using Raylib. Here are some improvements and clarifications:
 
 *Execution Guideline:*
 1. **File Placement**:  
    - Ensure `graph.cpp`, `graph.h`, and `main.cpp` are in the same folder.
    
 2. **Directory Setup**:  
-   - Create two subfolders named `include` and `lib` within the folder containing the `.cpp` and `.h` files.
+   - Create two subfolders named `include` and `lib` within the folder containing the `.a` and `.h` files.
    - Place `raylib.h` in the `include` folder.
    - Place `libraylib.a` in the `lib` folder.  
      *These folders are necessary for the compiler to find Raylib's header and library files.*
